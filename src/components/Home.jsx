@@ -11,13 +11,13 @@ export default class Home extends Component {
                 <Jumbotron>
                     <h2>Get fit - physically, mentally & emotionally</h2>
                     <p>All you need is the right diet, some exercise and a lot of motivation.</p>
-                    <Link to='/about'>
+                    <Link to='/lifestyle-coach/about'>
                         <Button bsStyle='primary'>About Me</Button>
                     </Link>
                 </Jumbotron>
                 <Row className='show-grid'>
                     <Col xs={10} sm={4}>
-                        <Image src='assets/IMG20171221083154.jpg' className='profile-pic' rounded />
+                        <Image src='/lifestyle-coach/assets/IMG20171221083154.jpg' className='profile-pic' rounded />
                     </Col>
                     <Col xs={10} sm={6} smOffset={0}>
                         <h4>My definition of fitness</h4>

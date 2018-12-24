@@ -7,10 +7,10 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <Image src='assets/about-header.jpg' className='header-image' />
+        <Image src='/lifestyle-coach/assets/about-header.jpg' className='header-image' />
         <Grid>
           <Col xs={10} sm={8} smOffset={2}>
-            <Image src='assets/IMG20171125190800.jpg' className='about-profile-pic' rounded />
+            <Image src='/lifestyle-coach/assets/IMG20171125190800.jpg' className='about-profile-pic' rounded />
             <h4>About Me</h4>
             <p>
             My name is Chandni Sharma and I am a fitness enthusiast and passionate about food, exercise, yoga and being healthy. 

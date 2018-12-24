@@ -14,9 +14,9 @@ class App extends Component {
         <div>
           <CustomNavBar />
           <div className='custom-main-body'>
-            <Route exact path='/' component={Home} />
-            <Route path='/about' component={About} />
-            <Route path='/contact' component={Contact} />
+            <Route exact path='/lifestyle-coach/' component={Home} />
+            <Route path='/lifestyle-coach/about' component={About} />
+            <Route path='/lifestyle-coach/contact' component={Contact} />
           </div>
           <CustomFooter />
         </div>
