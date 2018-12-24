@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lifestyle-coach/precache-manifest.67f1a9004fd2ded1b434c835d84efda6.js"
+  "/lifestyle-coach/precache-manifest.05e52c7600a337957c76cadd78ce5751.js"
 );
 
 workbox.clientsClaim();
