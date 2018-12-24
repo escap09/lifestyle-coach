@@ -1,0 +1,19 @@
+/* Use !important to apply color in footer jumbotron */
+.jumbotron-footer {
+    background-color: rgb(240, 237, 220);
+   
+}
+
+.upper-footer {
+    margin-top: 10em;
+}
+
+/* span {
+    display:table;
+    margin:0 auto;
+} */
+
+i {
+    margin: 0 1em 0 1em;
+    color: black;
+}
