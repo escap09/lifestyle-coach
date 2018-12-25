@@ -1,17 +1,17 @@
 {
   "main.css": "/lifestyle-coach/static/css/main.82a52a1d.chunk.css",
-  "main.js": "/lifestyle-coach/static/js/main.2e30ecb2.chunk.js",
-  "main.js.map": "/lifestyle-coach/static/js/main.2e30ecb2.chunk.js.map",
+  "main.js": "/lifestyle-coach/static/js/main.f84bd72e.chunk.js",
+  "main.js.map": "/lifestyle-coach/static/js/main.f84bd72e.chunk.js.map",
   "static/css/1.8a11cce2.chunk.css": "/lifestyle-coach/static/css/1.8a11cce2.chunk.css",
   "static/js/1.67881f18.chunk.js": "/lifestyle-coach/static/js/1.67881f18.chunk.js",
   "static/js/1.67881f18.chunk.js.map": "/lifestyle-coach/static/js/1.67881f18.chunk.js.map",
   "runtime~main.js": "/lifestyle-coach/static/js/runtime~main.69e4b336.js",
   "runtime~main.js.map": "/lifestyle-coach/static/js/runtime~main.69e4b336.js.map",
   "static/media/all.min.css": "/lifestyle-coach/static/media/fa-solid-900.27603739.svg",
-  "static/media/bootstrap.min.css": "/lifestyle-coach/static/media/glyphicons-halflings-regular.448c34a5.woff2",
+  "static/media/bootstrap.min.css": "/lifestyle-coach/static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/css/main.82a52a1d.chunk.css.map": "/lifestyle-coach/static/css/main.82a52a1d.chunk.css.map",
   "static/css/1.8a11cce2.chunk.css.map": "/lifestyle-coach/static/css/1.8a11cce2.chunk.css.map",
   "index.html": "/lifestyle-coach/index.html",
-  "precache-manifest.f8c263ccf172ef4668e1c7789fa09f6b.js": "/lifestyle-coach/precache-manifest.f8c263ccf172ef4668e1c7789fa09f6b.js",
+  "precache-manifest.8cef295e47493388cfc964eb7230230e.js": "/lifestyle-coach/precache-manifest.8cef295e47493388cfc964eb7230230e.js",
   "service-worker.js": "/lifestyle-coach/service-worker.js"
 }
