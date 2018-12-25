@@ -17,7 +17,7 @@ export default class Home extends Component {
                 </Jumbotron>
                 <Row className='show-grid'>
                     <Col xs={10} sm={4}>
-                        <Image src='/lifestyle-coach/assets/IMG20171221083154.jpg' className='profile-pic' rounded />
+                        <Image src='/assets/IMG20171221083154.jpg' className='profile-pic' rounded />
                     </Col>
                     <Col xs={10} sm={6} smOffset={0}>
                         <h4>My definition of fitness</h4>
