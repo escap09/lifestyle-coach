@@ -10,13 +10,13 @@ import CustomFooter from './components/CustomFooter';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename='/lifestyle-coach'>
         <div>
           <CustomNavBar />
           <div className='custom-main-body'>
-            <Route exact path='/lifestyle-coach/' component={Home} />
-            <Route path='/lifestyle-coach/about' component={About} />
-            <Route path='/lifestyle-coach/contact' component={Contact} />
+            <Route exact path='/' component={Home} />
+            <Route path='/about' component={About} />
+            <Route path='/contact' component={Contact} />
           </div>
           <CustomFooter />
         </div>

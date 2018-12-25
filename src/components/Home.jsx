@@ -11,8 +11,8 @@ export default class Home extends Component {
                 <Jumbotron>
                     <h2>Get fit - physically, mentally & emotionally</h2>
                     <p>All you need is the right diet, some exercise and a lot of motivation.</p>
-                    <Link to='/lifestyle-coach/about'>
-                        <Button bsStyle='primary'>About Me</Button>
+                    <Link to='/about'>
+                        <Button bsStyle='primary' rounded>About Me</Button>
                     </Link>
                 </Jumbotron>
                 <Row className='show-grid'>

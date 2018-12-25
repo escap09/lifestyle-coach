@@ -14,7 +14,7 @@ export default class CustomFooter extends Component {
                                 <a href='http://facebook.com' target='_blank'><i className="fab fa-facebook"></i></a>
                                 <a href='https://www.instagram.com/chandni_sharma06/' target='_blank'><i className="fab fa-instagram"></i></a>
                                 <a href='http://youtube.com' target='_blank'><i class="fab fa-youtube"></i></a>
-                                <a href='/lifestyle-coach/contact'><i class="fas fa-envelope"></i></a>
+                                <a href='/contact'><i class="fas fa-envelope"></i></a>
                             </div>
                         </Jumbotron>
                     </div>
