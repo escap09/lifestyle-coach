@@ -2,7 +2,6 @@
   "name": "lifestyle-coach",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".", 
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.6.3",
     "bootstrap": "^3.4.0",
