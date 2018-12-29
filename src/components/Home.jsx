@@ -8,7 +8,7 @@ export default class Home extends Component {
                 <div className='jumbotron shadow'>
                     <h2>Get fit - physically, mentally & emotionally</h2>
                     <p>All you need is the right diet, some exercise and a lot of motivation.</p>
-                    <a className="btn btn-outline-info shadow" href="/about" role="button">About Me</a>
+                    <a className="btn btn-info shadow" href="/about" role="button">About Me</a>
                 </div>
                 <div className='show-grid row'>
                     <div className='col-md-4'>

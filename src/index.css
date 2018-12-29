@@ -6,17 +6,17 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:black;
-  font-weight: 200;
+  font-weight: 250;
 }
 
 p {
   color: grey;
-  font-weight: 200;
+  font-weight: 250;
   font-size: 1em;
 }
 
 li > a {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 img {
@@ -25,9 +25,5 @@ img {
 }
 
 a, button, input {
-  font-weight: lighter!important;
-}
-
-li.active a { 
-  color: #FF0000;
+  font-weight: light!important;
 }
