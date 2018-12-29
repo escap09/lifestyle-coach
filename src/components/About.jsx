@@ -8,7 +8,7 @@ export default class About extends Component {
       <div><img src="/assets/about-header.jpg" className="header-image" alt=''/>
         <div className="container">
           <div className="col-md-12">
-            <img src="/assets/IMG20171125190800.jpg" className="about-profile-pic rounded" alt=''/>
+            <img src="/assets/about.jpg" className="about-profile-pic rounded" alt=''/>
             <h4>About Me</h4>
             <p>
               My name is Chandni Sharma and I am a fitness enthusiast and passionate about food, exercise, yoga and being healthy.
