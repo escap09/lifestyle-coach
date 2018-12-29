@@ -1,21 +1,11 @@
 .jumbotron {
     margin-bottom: 4em;
+    background-color: #eee;
   }
-  /* .person-wrapper {
-    margin-bottom: 2em;
-  } */
 
   .profile-pic {
-    width: 88%;
-    float: right;
-    margin: 0 3em 2em 0;
-  }
-  
-  .btn-primary {
-    background-image: none;
-    border: none;
-    border-radius: 0;
-    background-color: #2892D7;
+    width: 90%;
+    margin: 0 2em 2em 0;
   }
   
   h3 {

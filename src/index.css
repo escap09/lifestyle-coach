@@ -4,12 +4,30 @@ body {
   font-family: sans-serif;
 }
 
-/* h1, h2, h3, h4, h5, h6 {
-  color:grey;
-} */
+h1, h2, h3, h4, h5, h6 {
+  color:black;
+  font-weight: 200;
+}
 
 p {
   color: grey;
-  font-weight: 310;
-  font-size: 1.6rem;
+  font-weight: 200;
+  font-size: 1em;
+}
+
+li > a {
+  font-size: 14px;
+}
+
+img {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  border-radius: .25rem!important;
+}
+
+a, button, input {
+  font-weight: lighter!important;
+}
+
+li.active a { 
+  color: #FF0000;
 }

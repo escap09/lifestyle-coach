@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './CustomFooter.css';
-import { Jumbotron } from 'react-bootstrap';
+import { fbLink, instaLink, youtubeLink } from '../constants';
 
 export default class CustomFooter extends Component {
     render() {
@@ -9,14 +9,14 @@ export default class CustomFooter extends Component {
                 <div className='upper-footer'>
                     <hr />
                     <div>
-                        <Jumbotron>
+                        <div className='jumbotron'>
                             <div align='center'>
-                                <a href='http://facebook.com' target='_blank'><i className="fab fa-facebook"></i></a>
-                                <a href='https://www.instagram.com/chandni_sharma06/' target='_blank'><i className="fab fa-instagram"></i></a>
-                                <a href='http://youtube.com' target='_blank'><i class="fab fa-youtube"></i></a>
-                                <a href='/contact'><i class="fas fa-envelope"></i></a>
+                                <a href={fbLink} target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
+                                <a href={instaLink} target='_blank' rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                                <a href={youtubeLink} target='_blank' rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
+                                <a href='/contact'><i className="fas fa-envelope"></i></a>
                             </div>
-                        </Jumbotron>
+                        </div>
                     </div>
                 </div>
             </footer>
