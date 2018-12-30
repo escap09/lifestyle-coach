@@ -7,9 +7,8 @@ export default class CustomFooter extends Component {
         return (
             <footer>
                 <div className='upper-footer'>
-                    <hr />
                     <div>
-                        <div className='jumbotron'>
+                        <div className='jumbotron jumbotron-footer'>
                             <div align='center'>
                                 <a href={fbLink} target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
                                 <a href={instaLink} target='_blank' rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>

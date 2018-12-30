@@ -10,7 +10,7 @@ import CustomFooter from './components/CustomFooter';
 class App extends Component {
   render() {
     return (
-      <Router >
+      <Router>
         <div>
           <CustomNavBar />
           <div className='custom-main-body'>
