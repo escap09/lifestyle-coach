@@ -1,5 +1,6 @@
 .jumbotron-home {
     background-color: rgb(248, 239, 239);
+    background-image: linear-gradient(-225deg,#2eb7ce,#4296cb);
   }
 
   .profile-pic {
