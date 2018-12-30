@@ -6,3 +6,8 @@ i {
     margin: 0 1em 0 1em;
     color: black;
 }
+
+.jumbotron-footer {
+    background: #fafafa;
+    border-top: 1px solid #eaeaea;
+}

@@ -1,13 +1,10 @@
-.jumbotron {
-    margin-bottom: 4em;
-    background-color: #eee;
+.jumbotron-home {
+    background-color: rgb(248, 239, 239);
   }
 
   .profile-pic {
-    width: 90%;
+    width: 100%;
     margin: 0 2em 2em 0;
   }
   
-  h3 {
-    margin-bottom: 1em;
-  }
+
