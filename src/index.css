@@ -18,6 +18,11 @@ p {
 li > a {
   font-size: 15px;
   font-weight: 500;
+  
+}
+
+nav.navbar, .navbar-default {
+  background-color: rgb(48, 133, 133) !important;
 }
 
 img {
