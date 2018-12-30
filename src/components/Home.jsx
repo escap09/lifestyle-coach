@@ -5,11 +5,12 @@ export default class Home extends Component {
     render() {
         return (
             <div className='container'>
-                <div className='jumbotron shadow jumbotron-home'>
-                    <h2>Get fit - physically, mentally & emotionally</h2>
-                    <p className='text-dark'>All you need is the right diet, some exercise and a lot of motivation.</p>
+                {/* <div className='jumbotron shadow jumbotron-home'> */}
+                <div className='jumbotron shadow bg-info jumbotron-home'>
+                    <h2 className='text-white' >Get fit - physically, mentally & emotionally</h2>
+                    <p className='text-white'>All you need is the right diet, some exercise and a lot of motivation.</p>
                     <br />
-                    <a className="btn btn-info shadow" href="/about" role="button">About Me</a>
+                    <a className="btn btn-light shadow text-dark" href="/about" role="button">Products & Services</a>
                 </div>
                 <div className='show-grid row'>
                     <div className='col-md-4'>
