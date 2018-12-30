@@ -44,7 +44,7 @@ export default class Home extends Component {
                                 <strong className='text-dark font-weight-bold'>So, realize your Right to Fitness and get going!!</strong>
                             </p>
                             <hr />
-                            <a className="btn btn-info shadow" href="/contact" role="button">Get In Touch</a>
+                            <a className="btn btn-outline-secondary shadow" href="/contact" role="button">Get In Touch</a>
                         </div>
                     </div>
                 </div>
