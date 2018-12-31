@@ -14,11 +14,11 @@ export default class About extends Component {
             <p>
               My name is Chandni Sharma and I am a fitness enthusiast and passionate about food, exercise, yoga and being healthy.
             I studied fashion designing and then completed MBA. I am married to an Entrepreneur who is running a
-            tech startup and blessed with a teenage handsome son.
+            tech startup and blessed with a handsome teenage son.
             </p>
             <p>
               Health and fitness all started as a personal
-            need and then became a passion so completed various certifications related to diet, exercise, yoga,
+            need and then became a passion so I completed various certifications related to diet, exercise, yoga,
             and fitness. I truly believe that overall fitness is achieved <strong className='text-dark'>only when you are fit – physically, mentally & emotionally.</strong>
             </p>
           </div>
@@ -29,32 +29,31 @@ export default class About extends Component {
             <img src="/assets/about-before.jpg" className="about-before-pic img-custom-shadow" alt='' />
             <h5>Story of my fit life</h5>
             <p>
-              It all started since winter of 2012 while sitting on my couch I was eating <span className='font-italic'>Gulag Jamuns</span> and got
+              It all started since winter of 2012 while sitting on my couch I was eating <span className='font-italic'>Gulab Jamuns</span> and got
             a call from my mother that her sugar level went up again and this time it was really high.
             </p>
             <p>
-              I was really worried, of course for my mother but for me as well as I have terribly sweet tooth and both
-            my parents are diabetic. I was gaining weight like a usual housewife who is been married for nine
-            years would.
+              I was really worried, of course for my mother but for me as well as I have terrible sweet tooth and both
+            my parents are diabetic. I was gaining weight like a big time foodie.
             </p>
             <p>
-              Then I decided on loosing some weight. I never imagined that a simple decision could be
+              Then I decided on losing some weight. I never imagined that a simple decision could be
             a <strong className='text-dark'>game changer</strong>.
             </p>
             <br />
             <img src="/assets/about-after.jpg" className="about-during-pic img-custom-shadow" alt='' />
             <p>
-              I started exercising, even joined gym. But as it happens for most of us, I was never regular.
+              I started exercising, even joined a Gym. But as it happens for most of us, I was never regular.
               Focusing mainly on exercising brings very slow results and none of us have that kind of patience.
               Living in this instant world, everybody wants faster results - right? I was not an exception.
-              I was sure that something isin't right!
+              I was sure that something isn't right!
               </p>
             <p>
               After months of exploring I concluded to same theory what
               most fitness experts would say <strong className='text-dark'> – it’s all about good diet, exercise regime and a positive attitude. </strong>
               So, this time I focused on diet along with my exercise but then I realized that how can I continue
-              this forever? Fitness is a one time thing or a life long commitment?  Actually, it's a lifestyle,
-              once fit you always want to remain fit but how to keep committed forever? You got this, motivation
+              this forever? Fitness is a one-time thing or a lifelong commitment?  Actually, it's a lifestyle,
+              once fit you always want to remain fit but how to be committed forever? You got this, motivation
               is the only key.
               </p>
             <p>
