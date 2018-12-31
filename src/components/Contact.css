@@ -1,7 +1,13 @@
 .contact-head > h3 {
     margin-bottom: 2em;
+    margin-top: 5em;
+    /* color: rgb(53, 114, 170); */
 }
 
 .text-muted {
     margin-top: 3em;
+}
+
+.thankyou_message{
+    display:none;
 }
