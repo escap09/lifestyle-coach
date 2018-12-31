@@ -4,5 +4,5 @@ export const youtubeLink = 'https://www.youtube.com/channel/UC85PW7Dtte7yXHmzq-B
 export const sendEmailAction = 'https://script.google.com/macros/s/AKfycbx-qO2ltMc1bhBhjbnYCbgqm1IwuDKj0m8u6ll1/exec';
 
 ///Videos
-export const aboutVideo = 'http://www.youtube.com/embed/ieR_8ABMUek?html5=1';
-export const homeVideo = 'http://www.youtube.com/embed/BYC7KpR6nyQ?html5=1';
+export const aboutVideo = 'https://www.youtube.com/embed/ieR_8ABMUek?html5=1';
+export const homeVideo = 'https://www.youtube.com/embed/BYC7KpR6nyQ?html5=1';

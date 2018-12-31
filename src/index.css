@@ -10,7 +10,9 @@ h1, h2, h3, h4, h6 {
 }
 
 h5 {
-  color: rgb(53, 114, 170);
+  color: black;
+  font-weight: 500;
+
 }
 
 /* .btn-color {
