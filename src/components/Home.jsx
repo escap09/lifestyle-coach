@@ -11,7 +11,7 @@ export default class Home extends Component {
                         <h2 className='text-white' >Get fit - physically, mentally & emotionally</h2>
                         <p className='text-white'>All you need is the right diet, some exercise and a lot of motivation.</p>
                         <br />
-                        <a className="btn btn-light shadow text-dark" href="/about" role="button">Start Now!!</a>
+                        <a className="btn btn-light shadow text-dark" href="/services" role="button">Start Now!!</a>
                     </div>
                 </div>
                 <div className='container'>
@@ -50,6 +50,60 @@ export default class Home extends Component {
 
                     <br />
                     <hr className="col-md-10 offset-md-1" />
+                    <br />
+
+                    <h4 align='center'>Testimonials</h4>
+                    <br />
+
+                    <div id='carouselExampleControls' class="carousel slide jumbotron" data-ride="carousel">
+                        <div class="carousel-inner" align='center'>
+                            <div class="carousel-item active">
+                                <div class="card text-white mb-3">
+                                    <div class="card-header text-dark">Shahid Shaikh</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Weight Gain Program</h5>
+                                        <br/>
+                                        <p class="card-text">
+                                        Chandni Sharma is one of the excellent and very committed trainers and dietician.
+                                        This platform gives you one stop solution for all your fitness related needs.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                            <div class="card text-white mb-3">
+                                    <div class="card-header text-dark">Khushboo Arora</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Weight Loss Program</h5>
+                                        <br/>
+                                        <p class="card-text">Chandni is an awesome motivator. She taught me how to eat real food and gave me my new skinny body.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                            <div class="card text-white mb-3">
+                                    <div class="card-header text-dark">Sumit Kumar</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Keto Diet Program</h5>
+                                        <br/>
+                                        <p class="card-text">The best part of going through this program is that I never felt starving and still losing inches.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                    <br />
+                    <hr className="col-md-10 offset-md-1" />
+                    <br />
                     <br />
 
                     <h5 align='center' className='font-italic'>Please Subscribe my YouTube Channel for more videos</h5>

@@ -18,13 +18,16 @@ export default class CustomNavBar extends Component {
                                 <a className="nav-link text-dark" href="/">Home</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link text-dark" href="/services">Services</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link text-dark" href="/about">About</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link text-dark" href="/contact">Contact</a>
                             </li>
                         </ul>
-                    </div>
+                    </div>  
                 </div>
             </nav>
         )

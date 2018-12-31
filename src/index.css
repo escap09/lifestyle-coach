@@ -39,3 +39,7 @@ li > a {
 a, button, input {
   font-weight: light!important;
 }
+
+.jumbotron {
+  border-radius: 0;
+}
