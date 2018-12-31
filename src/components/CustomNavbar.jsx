@@ -6,6 +6,9 @@ export default class CustomNavBar extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom">
                 <div className='container'>
+                    <a className="navbar-brand" href="/">
+                        <img src="/assets/logo.png" width="180" height="53" className="d-inline-block align-top" alt="" />
+                    </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -23,7 +26,7 @@ export default class CustomNavBar extends Component {
                         </ul>
                     </div>
                 </div>
-            </nav>  
+            </nav>
         )
     }
 }

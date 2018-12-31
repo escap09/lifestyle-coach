@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import './About.css';
-
+import { aboutVideo } from '../constants';
 
 export default class About extends Component {
   render() {
     return (
       <div>
-            <img src="/assets/backdrop.jpg" className="header-image" alt='' />
+        <img src="/assets/backdrop.jpg" className="header-image" alt='' />
         <div className="container">
           <div className="col-md-8 offset-md-2">
-            <img src="/assets/about.jpg" className="about-profile-pic rounded" alt='' />
+            <img src="/assets/about.jpg" className="about-profile-pic img-custom-shadow" alt='' />
             <h5>About Me</h5>
             <p>
               My name is Chandni Sharma and I am a fitness enthusiast and passionate about food, exercise, yoga and being healthy.
@@ -26,7 +26,7 @@ export default class About extends Component {
           <hr className="col-md-6 offset-md-3" />
           <br />
           <div className="col-md-8 offset-md-2">
-            <img src="/assets/about-before.jpg" className="about-before-pic rounded" alt='' />
+            <img src="/assets/about-before.jpg" className="about-before-pic img-custom-shadow" alt='' />
             <h5>Story of my fit life</h5>
             <p>
               It all started since winter of 2012 while sitting on my couch I was eating <span className='font-italic'>Gulag Jamuns</span> and got
@@ -42,7 +42,7 @@ export default class About extends Component {
             a <strong className='text-dark'>game changer</strong>.
             </p>
             <br />
-            <img src="/assets/about-during.jpg" className="about-during-pic rounded" alt='' />
+            <img src="/assets/about-after.jpg" className="about-during-pic img-custom-shadow" alt='' />
             <p>
               I started exercising, even joined gym. But as it happens for most of us, I was never regular.
               Focusing mainly on exercising brings very slow results and none of us have that kind of patience.
@@ -62,8 +62,30 @@ export default class About extends Component {
               and lot of motivation to keep going.</strong>
             </p>
           </div>
+
           <br />
           <hr className="col-md-6 offset-md-3" />
+          <br />
+
+          <h5 align='center' className='font-italic'>Certificates</h5>
+          <br />
+        </div>
+        <div className='jumbotron'>
+          <div className='container'>
+            <div className="col-md-8 offset-md-2">
+              <img src="/assets/certificates.jpg" className="custom-cert img-custom-shadow" alt='' />
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <hr className="col-md-6 offset-md-3" />
+        <br />
+
+        <h5 align='center' className='font-italic'>Please Subscribe my YouTube Channel for more videos</h5>
+        <br />
+        <div className="col-md-8 offset-md-2">
+          <iframe width='100%' height='500'  src={aboutVideo}></iframe>
         </div>
       </div>
     )

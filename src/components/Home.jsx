@@ -1,23 +1,23 @@
 import React, { Component } from 'react'
 import './Home.css';
+import { homeVideo } from '../constants';
 
 export default class Home extends Component {
     render() {
         return (
             <div >
-                <div className='jumbotron shadow bg-info jumbotron-home'>
-                <div className='container'>
-                    <h2 className='text-white' >Get fit - physically, mentally & emotionally</h2>
-                    <p className='text-white'>All you need is the right diet, some exercise and a lot of motivation.</p>
-                    <br />
-                    <a className="btn btn-light shadow text-dark" href="/about" role="button">Products & Services</a>
+                <div className='jumbotron shadow jumbotron-home'>
+                    <div className='container'>
+                        <h2 className='text-white' >Get fit - physically, mentally & emotionally</h2>
+                        <p className='text-white'>All you need is the right diet, some exercise and a lot of motivation.</p>
+                        <br />
+                        <a className="btn btn-light shadow text-dark" href="/about" role="button">Products & Services</a>
+                    </div>
                 </div>
-                </div>
-
                 <div className='container'>
                     <div className='show-grid row'>
                         <div className='col-md-4'>
-                            <img src='/assets/home-1.jpg' className='profile-pic' alt='' />
+                            <img src='/assets/home-1.jpg' className='profile-pic img-custom-shadow' alt='' />
                         </div>
                         <div className='col-md-7'>
                             <h5>My Fitness Mantra</h5>
@@ -44,8 +44,18 @@ export default class Home extends Component {
                                 <strong className='text-dark font-weight-bold'>So, realize your Right to Fitness and get going!!</strong>
                             </p>
                             <hr />
-                            <a className="btn btn-outline-secondary shadow" href="/contact" role="button">Get In Touch</a>
+                            <a className="btn btn-outline-secondary shadow " href="/contact" role="button">Get In Touch</a>
                         </div>
+                    </div>
+
+                    <br />
+                    <hr className="col-md-10 offset-md-1" />
+                    <br />
+
+                    <h5 align='center' className='font-italic'>Please Subscribe my YouTube Channel for more videos</h5>
+                    <br />
+                    <div className="col-md-8 offset-md-2">
+                        <iframe width='100%' height='500' src={homeVideo}></iframe>
                     </div>
                 </div>
             </div>
