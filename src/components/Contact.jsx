@@ -165,7 +165,7 @@ export default class Contact extends Component {
               <div>
               </div>
               <div className="col-md-8">
-                <input type="submit" className="btn btn-success btn-send shadow" value="Send Message" />
+                <input type="submit" className="btn btn-info btn-send shadow" value="Send Message" />
               </div>
             </div>
             <div className="row">

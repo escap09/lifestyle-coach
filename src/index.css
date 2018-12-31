@@ -4,10 +4,18 @@ body {
   font-family: sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   color:black;
   font-weight: 350;
 }
+
+h5 {
+  color: rgb(53, 114, 170);
+}
+
+/* .btn-color {
+  background-color:  rgb(53, 114, 170);
+} */
 
 p {
   color: grey;

@@ -11,7 +11,7 @@ export default class Home extends Component {
                         <h2 className='text-white' >Get fit - physically, mentally & emotionally</h2>
                         <p className='text-white'>All you need is the right diet, some exercise and a lot of motivation.</p>
                         <br />
-                        <a className="btn btn-light shadow text-dark" href="/about" role="button">Products & Services</a>
+                        <a className="btn btn-light shadow text-dark" href="/about" role="button">Start Now!!</a>
                     </div>
                 </div>
                 <div className='container'>
@@ -44,7 +44,7 @@ export default class Home extends Component {
                                 <strong className='text-dark font-weight-bold'>So, realize your Right to Fitness and get going!!</strong>
                             </p>
                             <hr />
-                            <a className="btn btn-outline-secondary shadow " href="/contact" role="button">Get In Touch</a>
+                            <a className="btn btn-info shadow" href="/contact" role="button">Get In Touch</a>
                         </div>
                     </div>
 

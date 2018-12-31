@@ -70,13 +70,13 @@ export default class About extends Component {
           <h5 align='center' className='font-italic'>Certificates</h5>
           <br />
         </div>
-        <div className='jumbotron'>
+        {/* <div className='jumbotron'> */}
           <div className='container'>
             <div className="col-md-8 offset-md-2">
-              <img src="/assets/certificates.jpg" className="custom-cert img-custom-shadow" alt='' />
+              <img src="/assets/certificates.jpg" className="custom-cert" alt='' />
             </div>
           </div>
-        </div>
+        {/* </div> */}
 
         <br />
         <hr className="col-md-6 offset-md-3" />
