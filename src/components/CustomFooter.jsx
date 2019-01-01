@@ -16,10 +16,10 @@ export default class CustomFooter extends Component {
                                     </div>
                                     <br />
                                     <div className='col-md-3 offset-md-0' align='center'>
-                                        <a href={fbLink} target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
-                                        <a href={instaLink} target='_blank' rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                                        <a href={youtubeLink} target='_blank' rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
-                                        <a href='/contact'><i className="fas fa-envelope"></i></a>
+                                        <a href={fbLink} target='_blank' rel="noopener noreferrer" data-toggle='tooltip' title='facebook'><i className="fab fa-facebook"></i></a>
+                                        <a href={instaLink} target='_blank' rel="noopener noreferrer" data-toggle='tooltip' title='instagram'><i className="fab fa-instagram"></i></a>
+                                        <a href={youtubeLink} target='_blank' rel="noopener noreferrer" data-toggle='tooltip' title='youTube'><i className="fab fa-youtube"></i></a>
+                                        <a href='/contact' data-toggle='tooltip' title='contact'><i className="fas fa-envelope"></i></a>
                                     </div>
                                     <br />
                                     <br />

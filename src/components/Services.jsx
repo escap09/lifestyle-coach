@@ -6,12 +6,13 @@ export default class Services extends Component {
     render() {
         return (
             <div>
-                <div className='jumbotron shadow jumbotron-home'>
-                    <div className='container'>
-                        <h4 className='text-white' align='center'>Services we offer</h4>
-                    </div>
-                </div>
+                {/* <img src="/assets/service-banner.jpg" className="header-image w-100" alt='' /> */}
+                <img src="/assets/9.jpg" className="header-image w-100" alt='' />
                 <div className='container'>
+                    <div className="col-md-8 offset-md-2">
+                        <h4 align='center'>Services</h4>
+                    </div>
+                    <br/>
                     <div className="col-md-8 offset-md-2">
                         <h5>Weight Management program – DO</h5>
                         <p>
@@ -67,21 +68,21 @@ export default class Services extends Component {
 
                     <div className='row' align='center'>
                         <div className="col-md-4">
-                            <img src='/assets/get-ready.png' className='img-custom-margin' alt='' />
+                            <img src='/assets/get-ready.jpg' className='img-custom-margin' alt='' />
                             <h5>Get Ready</h5>
                             <p>
                                 To understand you better, know your food & exercise preferences and articulate your objective.
                             </p>
                         </div>
                         <div className="col-md-4">
-                            <img src='/assets/get-fit.png' className='img-custom-margin' alt='' />
+                            <img src='/assets/get-fit.jpg' className='img-custom-margin' alt='' />
                             <h5>Get Fit</h5>
                             <p>
                                 Start your fitness journey, hand holding, regular review and interactions to keep you enough motivated.
                             </p>
                         </div>
                         <div className="col-md-4">
-                            <img src='/assets/remain-fit.png' className='img-custom-margin' alt='' />
+                            <img src='/assets/remain-fit.jpg' className='img-custom-margin' alt='' />
                             <h5>Remain Fit</h5>
                             <p>
                                 Giving you bonus tips, so you maintain what you have acheived and continue living active and healthy lifestyle.
@@ -120,7 +121,7 @@ export default class Services extends Component {
                                 <td>$ 200</td>
                             </tr>
                             <tr>
-                                <td>2Weight Management program – DE</td>
+                                <td>Weight Management program – DE</td>
                                 <td>Diet & Exercise</td>
                                 <td>3 Months</td>
                                 <td>15 Days</td>
@@ -138,24 +139,24 @@ export default class Services extends Component {
                             <tr>
                                 <td>HIIT group classes</td>
                                 <td>Exercise Only</td>
-                                <td colSpan='4'>For details please contact (only for Mumbai aspirants as present)</td>
+                                <td colSpan='4'>For details please contact (only for Mumbai aspirants at present)</td>
                             </tr>
                             <tr>
                                 <td>YOGA group Classes</td>
                                 <td>Exercise Only</td>
-                                <td colSpan='4'>For details please contact (only for Mumbai aspirants as present)</td>
+                                <td colSpan='4'>For details please contact (only for Mumbai aspirants at present)</td>
                             </tr>
                         </tbody>
 
                     </table>
                     <br />
                     <div className='col-md-8 offset-md-1'>
-                        <p>
-                            # planned review will be the duration in which program will not change, unless needed<br />
-                            # no diet plan includes any supplies or food items<br />
+                        <p className='font-weight-light text-dark foot-note-custom'>
                             # no exercise plan includes any personal training<br />
-                            # all consulting interactions will be over phone, email & WhatsApp
-                            </p>
+                            # no diet plan includes any supplies or food items<br />
+                            # all consulting interactions will be over phone, email & WhatsApp<br/>
+                            # planned review will be the duration in which program will not change, unless needed
+                        </p>
                     </div>
                 </div>
             </div>

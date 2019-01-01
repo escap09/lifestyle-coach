@@ -6,7 +6,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <img src="/assets/backdrop.jpg" className="header-image" alt='' />
+        <img src="/assets/backdrop.jpg" className="header-image w-100" alt='' />
         <div className="container">
           <div className="col-md-8 offset-md-2">
             <img src="/assets/about.jpg" className="about-profile-pic img-custom-shadow" alt='' />
@@ -69,13 +69,11 @@ export default class About extends Component {
           <h5 align='center' className='font-italic'>Certificates</h5>
           <br />
         </div>
-        {/* <div className='jumbotron'> */}
           <div className='container'>
             <div className="col-md-8 offset-md-2">
-              <img src="/assets/certificates.jpg" className="custom-cert" alt='' />
+              <img src="/assets/certificates.jpg" className="w-100" alt='' />
             </div>
           </div>
-        {/* </div> */}
 
         <br />
         <hr className="col-md-6 offset-md-3" />
