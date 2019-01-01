@@ -15,3 +15,10 @@
   width: 50%;
 }
 
+.carousel-img {
+  border-radius: 50%;
+}
+
+.card-header {
+  background-color: rgb(221, 219, 208);
+}
