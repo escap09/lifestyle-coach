@@ -11,11 +11,6 @@ export default class Services extends Component {
                         <h4 className='text-white' align='center'>Services we offer</h4>
                     </div>
                 </div>
-                {/* <div className='jumbotron'>
-                    <div className='container'>
-                        <h4 className='text-dark' align='center'>Services we offer</h4>
-                    </div>
-                </div> */}
                 <div className='container'>
                     <div className="col-md-8 offset-md-2">
                         <h5>Weight Management program – DO</h5>
