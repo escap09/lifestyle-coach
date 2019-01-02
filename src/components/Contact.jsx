@@ -10,7 +10,7 @@ export default class Contact extends Component {
   }
 
   validateHuman(honeypot) {
-    if (honeypot) {  //if hidden form filled up
+    if (honeypot) {
       return true;
     }
   }

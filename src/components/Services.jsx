@@ -6,8 +6,7 @@ export default class Services extends Component {
     render() {
         return (
             <div>
-                {/* <img src="/assets/service-banner.jpg" className="header-image w-100" alt='' /> */}
-                <img src="/assets/9.jpg" className="header-image w-100" alt='' />
+                <img src="/assets/service-banner.jpg" className="header-image w-100" alt='services' />
                 <div className='container'>
                     <div className="col-md-8 offset-md-2">
                         <h4 align='center'>Services</h4>
@@ -68,21 +67,21 @@ export default class Services extends Component {
 
                     <div className='row' align='center'>
                         <div className="col-md-4">
-                            <img src='/assets/get-ready.jpg' className='img-custom-margin' alt='' />
+                            <img src='/assets/get-ready.jpg' className='img-custom-margin' alt='Get Ready' />
                             <h5>Get Ready</h5>
                             <p>
                                 To understand you better, know your food & exercise preferences and articulate your objective.
                             </p>
                         </div>
                         <div className="col-md-4">
-                            <img src='/assets/get-fit.jpg' className='img-custom-margin' alt='' />
+                            <img src='/assets/get-fit.jpg' className='img-custom-margin' alt='Get Fit' />
                             <h5>Get Fit</h5>
                             <p>
                                 Start your fitness journey, hand holding, regular review and interactions to keep you enough motivated.
                             </p>
                         </div>
                         <div className="col-md-4">
-                            <img src='/assets/remain-fit.jpg' className='img-custom-margin' alt='' />
+                            <img src='/assets/remain-fit.jpg' className='img-custom-margin' alt='Remain Fit' />
                             <h5>Remain Fit</h5>
                             <p>
                                 Giving you bonus tips, so you maintain what you have acheived and continue living active and healthy lifestyle.
