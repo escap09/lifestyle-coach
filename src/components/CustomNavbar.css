@@ -2,39 +2,30 @@ nav.navbar, .navbar-default {
     background-color: rgb(254, 255, 255) !important;
 }
 
-/*   
-  .navbar-default {
-    background-image: none;
-    border: none;
-    border-radius: 0;
-  }
-  
-  .navbar-default .navbar-nav > li > a {
-    color: white;
-  }
-  
-  .navbar-default .navbar-brand {
-    color: white;
-  }
-  
-  .navbar-default .navbar-toggle {
-    border-color: white;
-  }
-  
-  .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-  }
-  
-  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-  }
-  
-  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: white;
-    background-color: transparent;
-  }
-  
-  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    background-color: transparent;
-  } */
+#navbarNav ul li a,
+#navbarNav ul li a:after,
+#navbarNav ul li a:before {
+  transition: all .4s;
+}
+#navbarNav ul li a:hover {
+  color: blue;
+}
+
+#navbarNav ul li a {
+  position: relative;
+}
+#navbarNav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: blue;
+  height: 2px;
+}
+#navbarNav ul li a:hover:after {
+  width: 100%;
+}

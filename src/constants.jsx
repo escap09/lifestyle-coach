@@ -5,4 +5,4 @@ export const sendEmailAction = 'https://script.google.com/macros/s/AKfycbx-qO2lt
 
 ///Videos
 export const aboutVideo = 'https://www.youtube.com/embed/ieR_8ABMUek?html5=1';
-export const homeVideo = 'https://www.youtube.com/embed/BYC7KpR6nyQ?html5=1';
+export const homeVideo = 'https://www.youtube.com/embed/MPRy0S0xVJw?html5=1';

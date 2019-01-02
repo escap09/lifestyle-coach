@@ -6,6 +6,7 @@ import Home from './components/Home';
 import CustomNavBar from './components/CustomNavbar';
 import Contact from './components/Contact';
 import CustomFooter from './components/CustomFooter';
+import Services from './components/Services';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <CustomNavBar />
           <div className='custom-main-body'>
             <Route exact path='/' component={Home} />
+            <Route path='/services' component={Services} />
             <Route path='/about' component={About} />
             <Route path='/contact' component={Contact} />
           </div>

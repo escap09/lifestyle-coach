@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Home.css';
 import { homeVideo } from '../constants';
+import Testimonials from './Testimonials';
 
 export default class Home extends Component {
     render() {
@@ -11,13 +12,13 @@ export default class Home extends Component {
                         <h2 className='text-white' >Get fit - physically, mentally & emotionally</h2>
                         <p className='text-white'>All you need is the right diet, some exercise and a lot of motivation.</p>
                         <br />
-                        <a className="btn btn-light shadow text-dark" href="/about" role="button">Start Now!!</a>
+                        <a className="btn btn-light shadow text-dark" href="/services" role="button">Start Now!!</a>
                     </div>
                 </div>
                 <div className='container'>
                     <div className='show-grid row'>
                         <div className='col-md-4'>
-                            <img src='/assets/home-1.jpg' className='profile-pic img-custom-shadow' alt='' />
+                            <img src='/assets/home-1.jpg' className='profile-pic img-custom-shadow' alt='home profile' />
                         </div>
                         <div className='col-md-7'>
                             <h5>My Fitness Mantra</h5>
@@ -50,6 +51,16 @@ export default class Home extends Component {
 
                     <br />
                     <hr className="col-md-10 offset-md-1" />
+                    <br />
+
+                    <h4 align='center'>Testimonials</h4>
+                    <br />
+
+                    <Testimonials />
+
+                    <br />
+                    <hr className="col-md-10 offset-md-1" />
+                    <br />
                     <br />
 
                     <h5 align='center' className='font-italic'>Please Subscribe my YouTube Channel for more videos</h5>

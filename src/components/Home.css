@@ -1,8 +1,6 @@
 .jumbotron-home {
   border-radius: 0;
-    /* background-color: rgb(248, 239, 239); */
     background-image: linear-gradient(-225deg,#4296cb, #2eb7ce);
-    /* background: linear-gradient(-225deg,#ff9c00 0,#fec555); */
   }
 
   .profile-pic {
@@ -10,4 +8,3 @@
     margin: 0 2em 2em 0;
   }
   
-
