@@ -58,7 +58,7 @@ export default class Testimonials extends Component {
                                     <img src='/assets/test-4.jpg' className='w-100 carousel-img' alt='testimonial4' />
                                 </div>
                                 <br />
-                                <h5 class="card-title">Weight loss programm</h5>
+                                <h5 class="card-title">Weight Loss Program</h5>
                                 <br />
                                 <p class="card-text">I have been eating incorrectly my entire life but Chandni helped me understand how important food is for a healthier lifestyle.</p>
                             </div>
