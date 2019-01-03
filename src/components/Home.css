@@ -8,3 +8,6 @@
     margin: 0 2em 2em 0;
   }
   
+  .container a {
+    padding: .2em 1em .2em 1em;
+  }
