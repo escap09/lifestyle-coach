@@ -15,9 +15,9 @@ h5 {
 
 }
 
-/* .btn-color {
-  background-color:  rgb(53, 114, 170);
-} */
+.btn {
+  padding: .25em 1em .25em 1em;
+}
 
 p {
   color: grey;
