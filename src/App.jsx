@@ -7,8 +7,15 @@ import CustomNavBar from './components/CustomNavbar';
 import Contact from './components/Contact';
 import CustomFooter from './components/CustomFooter';
 import Services from './components/Services';
+import ReactGA from 'react-ga';
 
 class App extends Component {
+
+initializeReactGA() {
+    ReactGA.initialize('UA-123791717-1');
+    history.listen(location => ReactGA.pageview(location.pathname));
+}
+
   render() {
     return (
       <Router>
