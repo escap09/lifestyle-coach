@@ -65,7 +65,7 @@ export default class Home extends Component {
                     <h5 align='center' className='font-italic'>Please Subscribe my YouTube Channel for more videos</h5>
                     <br />
                     <div className="col-md-8 offset-md-2">
-                        <iframe width='100%' height='500' src={homeVideo}></iframe>
+                        <iframe title='My Fitness Mantra' width='100%' height='500' src={homeVideo}></iframe>
                     </div>
                 </div>
             </div>

@@ -99,7 +99,7 @@ export default class Services extends Component {
 
                     <br />
 
-                    <table class="table table-sm table-bordered text-center" align='center'>
+                    <table className="table table-sm table-bordered text-center" align='center'>
                         <thead className='table-primary'>
                             <tr>
                                 <th scope="col">Program</th>
