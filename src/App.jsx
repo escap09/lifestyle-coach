@@ -7,20 +7,19 @@ import CustomNavBar from './components/CustomNavbar';
 import Contact from './components/Contact';
 import CustomFooter from './components/CustomFooter';
 import Services from './components/Services';
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 
 class App extends Component {
 
-initializeReactGA() {
-    ReactGA.initialize('UA-123791717-1');
-    ReactGA.pageview('/');
-    ReactGA.pageview('/services');
-    ReactGA.pageview('/about');
-    ReactGA.pageview('/contact');
-}
+// initializeReactGA() {
+//     ReactGA.initialize('UA-123791717-1');
+//     ReactGA.pageview('/');
+//     ReactGA.pageview('/services');
+//     ReactGA.pageview('/about');
+//     ReactGA.pageview('/contact');
+// }
 
   render() {
-    this.initializeReactGA();
     return (
       <Router>
         <div>
