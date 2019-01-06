@@ -20,7 +20,7 @@ export default class Contact extends Component {
     var elements = form.elements;
 
     var fields = Object.keys(elements).filter(function (k) {
-      return (elements[k].name !== "honeypot");
+      return (elements[k].name !== '_honeypot');
     }).map(function (k) {
       if (elements[k].name !== undefined) {
         return elements[k].name;
@@ -29,14 +29,13 @@ export default class Contact extends Component {
         return elements[k].item(0).name;
       }
     }).filter(function (item, pos, self) {
-      return self.indexOf(item) == pos && item;
+      return self.indexOf(item) === pos && item;
     });
 
     var formData = {};
     fields.forEach(function (name) {
       var element = elements[name];
 
-      // singular form elements just have one value
       formData[name] = element.value;
 
       // when our element has multiple items, get their values
@@ -54,52 +53,37 @@ export default class Contact extends Component {
 
     // add form-specific values into the data
     formData.formDataNameOrder = JSON.stringify(fields);
-    formData.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
-    formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+    formData.formGoogleSheetName = form.dataset.sheet || 'responses';
+    formData.formGoogleSendEmail = form.dataset.email || '';
 
     return formData;
   }
 
   disableAllButtons(form) {
-    var buttons = form.querySelectorAll("input");
+    var buttons = form.querySelectorAll('input');
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].disabled = true;
     }
   }
 
   handleSubmit(event) {
-    event.preventDefault();           // we are submitting via xhr below
+    event.preventDefault();  
     var form = event.target;
-    //const data = new FormData(form);
-    var data = this.getFormData(form);         // get the values submitted in the form
+    var data = this.getFormData(form);  
 
-    /* OPTION: Remove this comment to enable SPAM prevention, see README.md
-    if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submitted
-      return false;
-    }
-    */
+    // if (this.validateHuman(data._honeypot)) {
+    //   return false;
+    // }
 
-    // if( data.email && !validEmail(data.email) ) {   // if email is not valid show error
-    //   var invalidEmail = form.querySelector(".email-invalid");
-    //   if (invalidEmail) {
-    //     invalidEmail.style.display = "block";
-    //     return false;
-    //   }
-    // } else {
     this.disableAllButtons(form);
     var url = form.action;
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
-    // xhr.withCredentials = true;
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onreadystatechange = function () {
-      // var formElements = form.querySelector(".form-elements")
-      // if (formElements) {
-      //   formElements.style.display = "none"; // hide form
-      // }
-      var thankYouMessage = form.querySelector(".thankyou_message");
+      var thankYouMessage = form.querySelector('.thankyou_message');
       if (thankYouMessage) {
-        thankYouMessage.style.display = "block";
+        thankYouMessage.style.display = 'block';
       }
       return;
     };
@@ -108,7 +92,6 @@ export default class Contact extends Component {
       return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
     }).join('&');
     xhr.send(encoded);
-    //}
   };
 
   render() {
@@ -165,7 +148,7 @@ export default class Contact extends Component {
               <div>
               </div>
               <div className="col-md-8">
-                <input type="submit" className="btn btn-info btn-send shadow" value="Send Message" />
+                <input type="submit" title='Send Message' className="btn btn-info btn-send shadow" value="Send Message" />
               </div>
             </div>
             <div className="row">
