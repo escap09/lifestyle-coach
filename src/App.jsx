@@ -20,6 +20,7 @@ initializeReactGA() {
 }
 
   render() {
+    this.initializeReactGA();
     return (
       <Router>
         <div>
