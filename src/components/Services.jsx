@@ -116,24 +116,24 @@ export default class Services extends Component {
                                 <td>Diet Only</td>
                                 <td>3 Months</td>
                                 <td>15 Days</td>
-                                <td>&#8377; 9,000</td>
-                                <td>$ 200</td>
+                                <td>&#8377; 12,000</td>
+                                <td>$ 270</td>
                             </tr>
                             <tr>
                                 <td>Weight Management program – DE</td>
                                 <td>Diet & Exercise</td>
                                 <td>3 Months</td>
                                 <td>15 Days</td>
-                                <td>&#8377; 12,000</td>
-                                <td>$ 270</td>
+                                <td>&#8377; 15,000</td>
+                                <td>$ 300</td>
                             </tr>
                             <tr>
                                 <td>Keto lifestyle program</td>
                                 <td>Diet Only</td>
                                 <td>3 Months</td>
                                 <td>7 Days</td>
-                                <td>&#8377; 12,000</td>
-                                <td>$ 270</td>
+                                <td>&#8377; 15,000</td>
+                                <td>$ 300</td>
                             </tr>
                             <tr>
                                 <td>HIIT group classes</td>
